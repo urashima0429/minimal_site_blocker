@@ -2,7 +2,7 @@
   "block": [
     "*://*.youtube.com/*",
     "*://*.twitch.tv/*",
-    "*://*x.com/*",
+    "*://x.com/*",
     "*://openfront.io/*"
   ]
 }
