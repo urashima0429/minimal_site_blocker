@@ -1,6 +1,8 @@
 {
   "block": [
     "*://*.youtube.com/*",
+    "*://*.twitch.tv/*",
+    "*://*x.com/*",
     "*://openfront.io/*"
   ]
 }
