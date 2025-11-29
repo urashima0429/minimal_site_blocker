@@ -11,7 +11,13 @@ async function loadBlockList() {
     },
     condition: {
       urlFilter: pattern,
-      resourceTypes: ["main_frame"]
+      resourceTypes: [
+        "main_frame",
+        "sub_frame",
+        "xmlhttprequest",
+        "script",
+        "other"
+      ]
     }
   }));
 
