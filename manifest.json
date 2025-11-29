@@ -1,0 +1,18 @@
+{
+  "name": "Minimal Site Blocker",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "A minimal Chrome extension to block specified websites.",
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "storage"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

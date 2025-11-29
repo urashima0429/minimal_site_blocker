@@ -1,0 +1,6 @@
+{
+  "block": [
+    "*://*.youtube.com/*",
+    "*://openfront.io/*"
+  ]
+}
